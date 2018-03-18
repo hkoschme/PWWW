@@ -1,0 +1,348 @@
+/*This section of styles applies to all pages*/
+
+body {
+    line-height: 140%;
+    background-image: url("images/background3.jpg");
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 1000px;
+    text-align:center;
+
+}
+
+#pagetitle {
+    text-align: center;
+    min-width: 500px;
+    margin-bottom: 50px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 140%;
+}
+
+b {
+    font-weight: 900;
+}
+
+h2, h3, h4, h5,h6 {
+    display: inline;
+}
+
+#topnav {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 630px;
+    max-width: 640px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbaritem {
+    display: inline;
+    background-color: #A2C7E4;
+    border-style: solid;
+    border-radius: 50%;
+   
+}
+
+
+#home {
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+#people {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#productsnav {
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#fanclub {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#promotions {
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left: 10px;
+}
+
+/*here allows the current page to be a different color font and border*/
+#here {
+    font-size: larger;
+    display: inline;
+    color: #1565FF;
+}
+
+/*normal links*/
+a:link {
+
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    font-weight: bolder;
+
+}
+
+a:active {
+    font-weight: bold;
+    color: #AAAAFF;
+
+}
+
+/*nav bar links act differently than normal links*/
+#home:hover, #people:hover, #productsnav:hover, #fanclub:hover, #promotions:hover {
+    color: blue;
+}
+
+#home:active, #people:active, #productsnav:active, #fanclub:active, #promotions:active {
+     color: #AAAAFF;
+}
+
+
+
+#tagline {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 650px;
+    font-style: italic;
+}
+
+.clear {
+    clear: both;
+}
+
+#bottomnav {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*End Section that applies to all pages*/
+/*index.html specific section*/
+
+.shorttext {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 25em;
+    float: left;
+    padding-right: 25px;
+    padding-left: 15px;
+    line-height: 140%;
+}
+
+#productdescription {
+    min-width: 680px;
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.homepagepics {
+    float: center;
+    vertical-align: bottom;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888887;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #A2C7E4;
+
+}
+
+#lastpic {
+    padding-bottom: 80px;
+}
+
+blockquote {
+    text-align: center;
+}
+
+/*end index.html specific styles*/
+/*products.html Page Specific Styles*/
+.shorttextproducts {
+
+    text-align: left;
+    margin-right: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 25em;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 140%;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888887;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #A2C7E4;
+    
+}
+
+#products {
+    min-width: 700px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lemonpic {
+    float: right;
+    vertical-align: bottom;
+    padding-top: 20px;
+}
+
+#limepic {
+    float: right;
+    vertical-align: bottom;
+    padding-top: 80px;
+}
+
+#lemonlimepic {
+    float: right;
+    vertical-align: bottom;
+}
+
+/*end products.html specific styles*/
+/*begin fanclubform.html specific styles*/
+
+.fields {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+.options {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: normal;
+}
+
+/*the class "thankyou" is also used in the coming soon page*/
+.thankyou {
+    width: 700px;
+    min-height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    padding-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888887;
+    background-color: #A2C7E4;
+}
+
+
+
+#formborder {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 700px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888887;
+    padding-bottom: 20px;
+    background-color: #A2C7E4;
+}
+
+/*end fanclubform.html specific styles*/
+
+/*begin people.html specific styles*/
+
+#workerheadshots {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 615px;
+    max-width: 715px;
+    
+}
+
+.caption {
+    float: left;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888887;
+    margin: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #A2C7E4;
+}
+
+/*end people.html specific styles*/
+/*begin comingsoon.html specific styles*/
+
+#underconstruction {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 700px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888887;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #A2C7E4;
+}
+
+/*end comingsoon.html specific styles*/
+

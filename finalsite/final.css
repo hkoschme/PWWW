@@ -1,0 +1,262 @@
+@charset "UTF-8";
+@import url("webfonts/Aleo_Bold/stylesheet.css");
+@import url("webfonts/Aleo_Regular/stylesheet.css");
+@import url("webfonts/Aleo_Light/stylesheet.css");
+.contactme {
+	width: 40%;
+	float: left;
+	padding-top: 0px;
+}
+.contactme ul li {
+	text-align: center;
+}
+.homelogo {
+	font-family: "Aleo Bold";
+	font-weight: 800;
+	font-size: 4em;
+	font-variant: small-caps;
+	padding-bottom: 20px;
+	padding-top: 35px;
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+.sectiontitle {
+	font: 800 2em "Aleo Bold";
+}
+nav li {
+	display: inline-block;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-size: large;
+	line-height: 1.5em;
+	width: 19%;
+}
+nav ul {
+	list-style-type: none;
+	margin-top: 30px;
+}
+a   {
+	color: #000000;
+	text-decoration: none;
+}
+.bottomblock a   {
+	color: #1C92AC;
+	text-decoration: underline;
+}
+.bottomblock ul {
+	list-style-type: circle;
+	text-align: right;
+	display: inline;
+}
+a:hover {
+	color: #2FDAE2;
+}
+.shortdescription {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Aleo Light";
+}
+textarea {
+	width: 300px;
+	height: 100px;
+}
+.documenttitle {
+	text-align: center;
+	width: 40%;
+	float: left;
+	margin-left: 87px;
+}
+#photogallery {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 650px;
+	background-color: #8E9593;
+}
+#smallphotobar {
+	width: 600px;
+	height: 55px;
+	background-color: #6B7D7B;
+	top: 913px;
+	position: absolute;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+#largesoccer {
+	z-index: 1;
+	top: 348px;
+	left: 325px;
+	position: absolute;
+}
+.smallimages {
+	float: left;
+	margin-left: 54px;
+	border: thin solid #1C3AA3;
+	height: 50px;
+}
+#largeslither {
+	z-index: 2;
+	visibility: hidden;
+	top: 348px;
+	left: 325px;
+	position: absolute;
+}
+#largesteph {
+	z-index: 3;
+	visibility: hidden;
+	top: 348px;
+	left: 325px;
+	position: absolute;
+}
+#largesteve {
+	z-index: 4;
+	visibility: hidden;
+	top: 348px;
+	left: 325px;
+	position: absolute;
+}
+#largekapsig {
+	z-index: 5;
+	visibility: hidden;
+	top: 500px;
+	left: 350px;
+	position: absolute;
+}
+#soccer {
+	z-index: 1;
+	top: 280px;
+	left: 300px;
+	position: absolute;
+	min-height: 50px;
+	min-width: 600px;
+	padding-top: 1px;
+	
+}
+#slither {
+	z-index: 2;
+	visibility: hidden;
+	top: 280px;
+	left: 300px;
+	position: absolute;
+	min-height: 50px;
+	min-width: 600px;
+	padding-top: 1px;
+}
+#steph {
+	z-index: 3;
+	visibility: hidden;
+	top: 280px;
+	left: 300px;
+	position: absolute;
+	min-height: 50px;
+	min-width: 600px;
+	padding-top: 1px;
+}
+#steve {
+	z-index: 4;
+	visibility: hidden;
+	top: 280px;
+	left: 300px;
+	position: absolute;
+	min-height: 50px;
+	min-width: 600px;
+	padding-top: 1px;
+}
+#kapsig {
+	z-index: 5;
+	visibility: hidden;
+	top: 280px;
+	left: 300px;
+	position: absolute;
+	min-height: 50px;
+	min-width: 600px;
+	padding-top: 1px;	
+}
+.borderclass {
+	border-width: thick;
+	padding: 10;
+	border-style: groove;
+	margin-left: 30px;
+	width: auto;
+	height: auto;
+	max-width: 1142px;
+	margin-bottom: 19px;
+}
+@media (max-width: 1199px){
+}
+#smalldescriptionbar {
+	width: 600px;
+	height: 50px;
+	background-color: #6B7D7B;
+	margin-bottom: 10px;
+}
+body {
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(162,187,155,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(162,187,155,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(162,187,155,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(162,187,155,1.00) 100%);
+	background-size: 100% 100%;
+	width: 1199px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 140%;
+	font-family: "Aleo Regular";
+	height: 100%;
+	min-height: 900px;
+}
+
+
+.bottomblock {
+	width: 100%;
+	height: 100px;
+	background-color: #A5A3A3;
+	padding-top: 25px;
+	padding-bottom: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.topblock {
+	width: 100%;
+	height: 200px;
+	background-color: #A5A3A3;
+	padding: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: double;
+}
+.tagline {
+	opacity: 0.51;
+}
+
+.content {
+	padding-bottom: 20px;
+	min-height: 600px;
+}
+.clear {
+	clear: both;
+}
+.creditstohannah {
+	width: 50%;
+	float: right;
+	padding-top: 0px;
+	padding-right: 68px;
+}
+.shortreport {
+	width: 40%;
+	float: left;
+	margin: 60px;
+}
+.shortworkreport {
+	width: 40%;
+	float: left;
+	padding-left: 57px;
+	text-align: left;
+	padding-bottom: 17px;
+}
+h5 {
+	font: 1.5em "Aleo Bold";
+	display: inline;
+	text-decoration: underline;
+}

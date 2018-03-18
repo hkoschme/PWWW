@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Me</title>
+<link href="final.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="topblock">
+<div class="homelogo" ><a href="index.html"> Brandon Jin</a></div>
+<div class="tagline">A CMU student's personal and professional website</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="motivations.html">Motivations</a></li>
+<li><a href="personalinterests.html">Personal Interests</a></li>
+<li><a href="worksamples.html">Work Samples</a></li>
+<li><a href="contactme.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+<div class="content"><script>function validate()
+    {
+    if (document.contactform.firstname.value.length < 2 || document.contactform.lastname.value.length < 2 )
+    {      
+    alert("Please enter your whole name.");
+    return false;
+    }  
+    var musthave = '@';
+    var useraddress = new String(document.contactform.emailaddress.value);
+    
+    if (!(useraddress.includes(musthave)) || useraddress.length<7){
+        alert("Please enter a valid email address."); 
+    return false;
+    }
+
+  	var phonenumbervals = /^\d{10}$/;
+  	if(document.contactform.phonenumber.value.match(phonenumbervals))
+        {
+      return true;
+        }
+     else
+        {
+        alert("Please enter a valid phone number without spaces, other symbols, or letters.");
+        return false;
+        }
+	
+    }
+
+ 
+</script>
+
+<br>
+<div class="sectiontitle">Contact Me</div>
+
+<div id="formborder">
+<h4>
+        Please at least enter your valid full name, email address, and phone number so that I can contact you right away.
+    </h4>
+
+<form name="contactform" action="contactformsubmitted.html" method="post" onsubmit="return validate()">
+<br>
+<div class="fields">
+        First Name*: &#160;&#160;&#160;&#160;
+    <input name="firstname" type="text" required size="20">
+</div>
+<br>
+<div class="fields">
+        Last Name*: &#160;&#160;&#160;&#160;
+    <input name="lastname" type="text" required size="20">
+</div>
+<br>
+<div class="fields">
+        Email Address*: &#160;&#160;&#160;&#160;
+    <input name="emailaddress" type="text" required size="40">
+</div>
+<br>
+<div class="fields">
+        Phone Number*: &#160;&#160;&#160;&#160;
+    <input name="phonenumber" type="text" required size="15">
+</div>
+
+<br>
+<div class="fields">
+       Best Time of Day to Contact You &#160;&#160;&#160;&#160;&#160; 
+        <select>
+            <option value="morning"> Morning</option>
+            <option value="afternoon"> Afternoon</option>
+            <option value="evening">Evening</option>
+            
+        </select>
+</div>
+<br>
+<div class="fields">
+    Nature of Request:<br>
+    <div class="options">
+    <input type="checkbox" name="personal" value="personal">Personal<br>
+    <input type="checkbox" name="professional" value="professional">Professional<br>
+    <input type="checkbox" name="other" value="other">Other<br>
+    <br>
+    </div>
+</div>
+
+<div class="fields">
+    What can I do for you?
+    <div class="options">
+    <textarea></textarea>
+    </div>
+</div>
+<br>
+
+<div class="fields">
+        Are you a robot? <br>
+        <div class="options">
+    <input type="radio" name="flavor" size="20">I can never be sure...<br>
+    <input type="radio" name="flavor" size="20">Yes<br>
+    <input type="radio" name="flavor" size="20">No<br>
+    </div>
+</div>
+<br>
+<div class="fields">
+    <input type="submit" name="submit">
+</div>
+
+</form>
+</div>
+<div class="bottomblock">
+<div class="contactme">
+Contact Me
+<ul>
+  <li>E-Mail: <a href="mailto:brandonjincmu@gmail.com">brandonjincmu@gmail.com</a></li>
+  <li>Phone: 412-605-4848</li>
+<li><a href="contactme.html">Contact Form</a></li>
+</ul>
+</div>
+<div class="creditstohannah">This website was created as a final project by Hannah Koschmeder, CMU TSB 2019. You can contact her at hkoschme@andrew.cmu.edu for any design questions.</div>
+
+
+</div>
+</div>
+</body>
+</html>

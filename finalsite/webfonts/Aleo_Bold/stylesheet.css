@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Aleo Bold';
+	src: url('Aleo-Bold.eot');
+	src: url('Aleo-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Aleo-Bold.woff') format('woff'),
+		url('Aleo-Bold.ttf') format('truetype');
+}

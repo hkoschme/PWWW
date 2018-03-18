@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fan Club</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link rel="icon" type="image" href="images/sparklingwaterglass.jpg">
+</head>
+<body>
+<div id="wrapper"> <!--begin container div for whole page--> 
+    <div id="pagetitle">
+        <h1>Sanctimonious Sparkling Water!</h1> 
+    </div>
+    
+
+    <div id="topnav"> <!--nav bar div-->
+    <ul>
+        <a href="index.html" ><li class="navbaritem" id="home" >Home</li></a>
+        <a href="people.html"><li class="navbaritem" id="people">People</li></a>
+        <b><div id="here"><a href="fanclubform.html"><li class="navbaritem" id="fanclub">Fan Club</li></a></b></div>
+        <a href="products.html"><li class="navbaritem" id="productsnav">Products</li></a>
+        <a href="promotions.html"><li class="navbaritem" id="promotions">Promotions</li></a>
+    </ul>
+    </div> <!--end nav bar div-->
+
+    <div id="tagline">
+        <h2>Water has never tasted so righteous!</h2>
+        <h4>Except for holy water!</h4>
+        <h5>But we don't drink that!</h5>
+        <br><br>
+    </div>
+
+
+<script>function validate()
+    {
+    if (document.fanclub.firstname.value.length < 2 || document.fanclub.lastname.value.length < 2 )
+    {      
+    alert("Please enter your whole name.");
+    return false;
+    }  
+    var musthave = '@';
+    var useraddress = new String(document.fanclub.emailaddress.value);
+    
+    if (!(useraddress.includes(musthave)) || useraddress.length<7){
+        alert("Please enter a valid email address."); 
+    return false;
+    }
+
+    }
+
+ 
+</script>
+
+
+
+
+<div id="formborder">
+<h4>
+        Please at least enter your full name and email address, so that you can receive our special offers.
+    </h4>
+
+<form name="fanclub" action="submittedpage.html" method="post" onsubmit="return validate()">
+<br>
+<div class="fields">
+        First Name: &#160;&#160;&#160;&#160;
+    <input type="text" name="firstname" size="20">
+</div>
+<br>
+<div class="fields">
+        Last Name: &#160;&#160;&#160;&#160;
+    <input type="text" name="lastname" size="20">
+</div>
+<br>
+<div class="fields">
+        Email Address: &#160;&#160;&#160;&#160;
+    <input type="text" name="emailaddress" size="40">
+</div>
+<br>
+
+<div class="fields">
+        Favorite Flavor: <br>
+        <div class="options">
+    <input type="radio" name="flavor" size="20">Lemon<br>
+    <input type="radio" name="flavor" size="20">Lime<br>
+    <input type="radio" name="flavor" size="20">Lemon Lime<br>
+    </div>
+</div>
+<br>
+<div class="fields">
+        How many times a week do you consume Sanctimonious Sparkling Water!?: 
+        <select>
+            <option value="less than one"> &#60; 1 Time</option>
+            <option value="1 time">1 Time</option>
+            <option value="2 guests">2 Times</option>
+            <option value="3 guests">3+ Times</option>
+        </select>
+</div>
+<br>
+<div class="fields">
+    Which meals do you usually consume Sanctimonious Sparkling Water! with?<br>
+    <div class="options">
+    <input type="checkbox" name="breakfast" value="breakfast">Breakfast<br>
+    <input type="checkbox" name="lunch" value="lunch">Lunch<br>
+    <input type="checkbox" name="dinner" value="dinner">Dinner<br>
+    <input type="checkbox" name="anytime" value="anytime">Anytime!<br>
+    </div>
+</div>
+<br>
+<div class="fields">
+    Do you have any additional comments?
+    <div class="options">
+    <textarea></textarea>
+    </div>
+</div>
+<br>
+<div class="fields">
+    <input type="submit" name="submit">
+</div>
+
+</form>
+</div>
+
+
+<div id="bottomnav">
+        &#169;Hannah Koschmeder | Andrew ID: hkoschme | <a href="mailto:hkoschme@andrew.cmu.edu">hkoschme@andrew.cmu.edu</a> | Student of Carnegie Mellon
+</div>
+
+</div>
+</body>
+</html>

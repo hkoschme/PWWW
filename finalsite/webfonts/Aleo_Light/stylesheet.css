@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Aleo Light';
+	src: url('Aleo-Light.eot');
+	src: url('Aleo-Light.eot?#iefix') format('embedded-opentype'),
+		url('Aleo-Light.woff') format('woff'),
+		url('Aleo-Light.ttf') format('truetype');
+}
